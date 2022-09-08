@@ -1,0 +1,245 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300;500;600;800&family=Manrope:wght@200;300;400;600;800&display=swap');
+
+:root{
+   --primary: #2D3A49;
+   --secondary: #fff;
+   --tertiary: #E6E7D0;
+   --font-family: 'Epilogue', sans-serif;
+   --other: #5bc0be;
+}
+*{
+  
+  color: var(--primary);
+}
+body{
+  font-family: var(--font-family);
+  background-color: var(--secondary);
+}
+.App {
+  text-align: center;
+  min-height: 10vh;
+}
+.header{
+  margin: 50px auto;
+  width: 100%;
+  background-color: var(--secondary);
+
+}
+.img-logo {
+  width: 40vmin;
+  pointer-events: none;
+}
+
+
+.container{
+  position: relative;
+  max-width: 1368px;
+  width: 80%;
+  display: flex;
+  margin: 0 auto;
+  min-height: calc(100vh - 60px);
+}
+.container.column{
+  flex-flow: column nowrap;
+  
+}
+.columns{
+  display: flex;
+  flex-flow: row nowrap;
+}
+.form-column{
+  display: flex;
+  flex-flow: column nowrap;
+  width: 45%;
+  margin: 10px 2.5%;
+}
+.form-column > form {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.signature-column{
+  background-color: #fff;
+  width: 45%;
+  margin: 10px 2.5%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.check--group{
+  display: inline-flex;
+  text-align: center;
+}
+.check--input{
+  cursor: pointer;
+  align-self: center;
+}
+.check--label{
+  cursor: pointer;
+  align-self: center;
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+.check--label:hover{
+  text-shadow: 0px 1px 2px rgba(45,58,73,0.30);
+  cursor: pointer;
+  transition: all 0.3s ease; 
+}
+.form--input{
+  margin: 5px 0;
+  padding: 8px 0;
+  padding-left: 8px;
+  border: 0.5px solid #000000AA;
+  
+}
+.form--input:focus-visible{
+  border-radius: 0px;
+  border: 1px solid #000000AA;
+  outline: none;
+  outline-style: auto;
+  outline-width: 1px;
+}
+.form-column > input, label{
+  margin: 10px 0;
+}
+.form-column > input[type=checkbox]{
+  margin-right: 6px;
+}
+
+.signature{
+  text-align: left;
+}
+.container-buttons{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  width: 70%;
+}
+.button-style{
+  display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+  padding: 7.5px 10px;
+  color: var(--secondary);
+  background-color: var(--primary);
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: normal;
+  font-weight: 600;
+  border-radius: 3px;
+  border: 2px solid var(--primary);
+  margin: 10px 0;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.3s all ease-in-out;
+  align-self: center;
+  box-sizing: border-box;
+  text-indent: 0px;
+  appearance: auto;
+  writing-mode: horizontal-tb !important;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-rendering: auto;
+  font-style: normal;
+}
+.button-style:hover{
+  color: var(--primary);
+  background-color: var(--secondary);
+  transition: 0.3s all ease-in-out;
+}
+
+.button-style.borrar{
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+padding: 7.5px 10px;
+
+text-transform: uppercase;
+font-size: 14px;
+line-height: normal;
+font-weight: 600;
+border-radius: 3px;
+border: 2px solid var(--primary);
+
+cursor: pointer;
+text-decoration: none;
+
+align-self: center;
+box-sizing: border-box;
+text-indent: 0px;
+appearance: auto;
+writing-mode: horizontal-tb !important;
+letter-spacing: normal;
+word-spacing: normal;
+text-rendering: auto;
+font-style: normal;
+  color: var(--primary);
+  background-color: var(--secondary);
+  transition: 0.3s all ease-in-out;
+}
+.button-style.borrar:hover{
+  color: var(--secondary);
+  background-color: var(--primary);
+  transition: 0.3s all ease-in-out;
+}
+
+.footer-sutil{
+  align-self: flex-end;
+  background-color: var(--primary);
+  width: 100%;
+  min-height: 60px;
+  max-height: 60px;
+}
+
+.footer-sutil > p{
+  color: var(--secondary);
+  display: inline-flex;
+  align-items: flex-end;
+}
+
+.heart{
+  font-size: 20px;
+  margin: 0 3px;
+  animation: aumento 0.25s alternate infinite ease-in-out;
+}
+@keyframes aumento {
+  0%   {transform: scale(1);}
+  100% {transform: scale(1.2);}
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+@media(max-width: 800px){
+  .container{
+    width: 90%
+  }
+  .columns{
+    flex-flow: column nowrap;
+  }
+  .signature-column{
+      width: 100%;
+  }
+  .form-column{
+      width: 100%;
+  }
+  .container-buttons{
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100%;
+  }
+  
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
