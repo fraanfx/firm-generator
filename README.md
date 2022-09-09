@@ -1,6 +1,6 @@
 # <span style="color: orange;">React App firm generator</span>
 
-Example deployed [Example on netlify](https://github.com/facebook/create-react-app).
+[Live example](https://catarsis-firm.netlify.app).
 
 ## UX Improvements
 
