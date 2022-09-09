@@ -247,7 +247,7 @@ return(
     <>
         <div className="container column">
                 <div className="header">
-                    <img className="img-logo" src="https://signature.enzyme.es/AF-ENZYME-Logotipo-RGB-POSITIVO.svg"/>
+                    <img className="img-logo" src="https://drive.google.com/uc?export=view&id=1yUARIdUsS9RT9ydAqvuBHOssTxxq1jwF"/>
                     <p>Signature generator</p>
                 </div>
 
@@ -355,7 +355,7 @@ return(
                
         </div>
         <div className='footer-sutil'>
-          <p>Made with <span className='heart'>&#128153;</span>  from Enzyme Factory</p>
+          <p>Made with <span className='heart'> &#129293;</span>  from Catarsis Factory</p>
       </div> 
         
     </>

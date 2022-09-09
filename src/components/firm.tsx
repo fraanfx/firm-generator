@@ -21,10 +21,10 @@ const Signature = (props:SignatureProps) =>{
             {/*Image header */}
             <tr>        
                         <td valign="top" align='left' rowSpan={1}>
-                            <a href="http://enzyme.biz/" target="_blank" rel='noreferrer'>
+                            <a href="#" target="_blank" rel='noreferrer'>
                                 <img
-                                    src="https://signature.enzyme.es/firm-logo.png"
-                                    alt="Enzyme Logo"
+                                    src="https://drive.google.com/uc?export=view&id=1yUARIdUsS9RT9ydAqvuBHOssTxxq1jwF"
+                                    alt="Logo"
                                     width="154.64px"
                                     height="31px"
                                     style={{
@@ -130,15 +130,15 @@ const Signature = (props:SignatureProps) =>{
                 <tr >
                     <tr>
                         <td>
-                            <a style={{marginRight: "10px",}} href={"https://www.linkedin.com/company/enzymeadvisinggroup/mycompany/"} rel="noreferrer" target="_blank">
-                                <img src="https://signature.enzyme.es/firm-link.png" width={"22px"} height={"22px"} alt={"Linkedin"}/>
+                            <a style={{marginRight: "10px",}} href={"#"} rel="noreferrer" target="_blank">
+                                <img src="https://drive.google.com/uc?export=view&id=1c5cII8zEu5EfQaOJ4dF2L1XpehmBnUAr" width={"22px"} height={"22px"} alt={"Linkedin"}/>
                             </a>
-                            <a style={{marginRight: "10px",}} href={"https://enzyme.biz/blog"} rel="noreferrer" target="_blank">
-                                <img src="https://signature.enzyme.es/firm-blog.png" width={"22px"} height={"22px"} alt={"Blog"}/>
+                            <a style={{marginRight: "10px",}} href={"#"} rel="noreferrer" target="_blank">
+                                <img src="https://drive.google.com/uc?export=view&id=1c5cII8zEu5EfQaOJ4dF2L1XpehmBnUAr" width={"22px"} height={"22px"} alt={"Blog"}/>
                             </a>
                        
-                            <a href={"http://enzyme.biz/recursos"} target="_blank" rel="noreferrer">
-                                <img src="https://signature.enzyme.es/firm-descargar.png" width={"22px"} height={"22px"} alt={"Descargable"}/>
+                            <a href={"#"} target="_blank" rel="noreferrer">
+                                <img src="https://drive.google.com/uc?export=view&id=1c5cII8zEu5EfQaOJ4dF2L1XpehmBnUAr" width={"22px"} height={"22px"} alt={"Descargable"}/>
                             </a>
                         </td>
                     </tr>
