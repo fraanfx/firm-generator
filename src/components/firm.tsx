@@ -2,12 +2,6 @@ import { SignatureProps } from './UISignature'
 import '../App.css'
 
 
-import  REnzyme  from './../img/firm-logo.png';
-import  RBlog  from './../img/firm-blog.png';
-import  RLinkedin  from './../img/firm-link.png';
-import  RDesc  from './../img/firm-descargar.png';
-
-
 const Signature = (props:SignatureProps) =>{
     return(
         // cellPadding={0} cellSpacing={0}
@@ -104,7 +98,7 @@ const Signature = (props:SignatureProps) =>{
                         <td>
                             <b style={{fontWeight:"700", fontSize:"12px", lineHeight: "13.8px", color:"#2D3A49" }}>Barcelona</b>
                         
-                            <p style={{fontFamily: 'Arial', fontStyle: 'normal', fontWeight: '400', fontSize: '12px', lineHeight: '13.8px'}}>Passeig de Gràcia 17, 4ª planta </p>
+                            <p style={{fontFamily: 'Arial', fontStyle: 'normal', fontWeight: '400', fontSize: '12px', lineHeight: '13.8px'}}>Passeig de Gràcia 23, 8ª planta </p>
                         
                             <p style={{fontFamily: 'Arial', fontStyle: 'normal', fontWeight: '400', fontSize: '12px', lineHeight: '13.8px'}}>08007 Barcelona</p>
                         </td>
@@ -116,7 +110,7 @@ const Signature = (props:SignatureProps) =>{
                         <td style={{paddingLeft: "15px",}}>
                             <b style={{fontFamily: 'Arial',fontWeight:"700", fontSize:"12px", lineHeight: "13.8px", color:"#2D3A49" }}>Madrid</b>
                        
-                            <p style={{fontFamily: 'Arial', fontStyle: 'normal', fontWeight: '400', fontSize: '12px', lineHeight: '13.8px'}}>Paseo de la Castellana 77, 6º</p>
+                            <p style={{fontFamily: 'Arial', fontStyle: 'normal', fontWeight: '400', fontSize: '12px', lineHeight: '13.8px'}}>Paseo de la Castellana 45, 5º</p>
                         
                             <p style={{fontFamily: 'Arial', fontStyle: 'normal', fontWeight: '400', fontSize: '12px', lineHeight: '13.8px'}}>28046 Madrid </p>
                         

@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import EnzymeLogo from '../public/logo.png'
 import { UISignature } from './components/UISignature'
 function App() {
   return (
