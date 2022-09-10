@@ -280,7 +280,7 @@ return(
                             onChange={handleChange}
 
                         />
-                        <label className="check--label" htmlFor="isPhoneChecked">{state.withPhone ? "Movil personal" : "Movil de Enzyme"}</label>
+                        <label className="check--label" htmlFor="isPhoneChecked">{state.withPhone ? "Teléfono de empresa" : "Móvil de personal"}</label>
                       
                         </div> 
                         
