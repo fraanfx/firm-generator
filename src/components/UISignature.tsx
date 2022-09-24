@@ -280,14 +280,14 @@ return(
                             onChange={handleChange}
 
                         />
-                        <label className="check--label" htmlFor="isPhoneChecked">{state.withPhone ? "Teléfono de empresa" : "Móvil de personal"}</label>
+                        <label className="check--label" htmlFor="isPhoneChecked">{state.withPhone ? "Móvil de empleado" : "Sin móvil de empleado"}</label>
                       
                         </div> 
                         
                         {state.withPhone &&(
                                 <input 
                                 type="text"
-                                placeholder="Tu telefono aquí"
+                                placeholder="Tu número de móvil aquí"
                                 className="form--input"
                                 name="phone"
                                 value={state.phone}

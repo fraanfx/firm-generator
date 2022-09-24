@@ -111,8 +111,7 @@ body{
 .container-buttons{
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-between;
-  width: 70%;
+  width: 100%;
 }
 .button-style{
   display: inline-block;
@@ -140,6 +139,7 @@ body{
   word-spacing: normal;
   text-rendering: auto;
   font-style: normal;
+  margin-right: 15px;
 }
 .button-style:hover{
   color: var(--primary);
@@ -175,6 +175,7 @@ font-style: normal;
   color: var(--primary);
   background-color: var(--secondary);
   transition: 0.3s all ease-in-out;
+  margin-right: 0px;
 }
 .button-style.borrar:hover{
   color: var(--secondary);
@@ -229,6 +230,9 @@ font-style: normal;
     display: flex;
     flex-flow: column nowrap;
     width: 100%;
+  }
+  .button-style{
+    margin-right: 0px;
   }
   
 }
